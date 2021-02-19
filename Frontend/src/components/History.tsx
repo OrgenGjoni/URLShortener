@@ -49,9 +49,7 @@ const History = ({hist,showHistory} : PropsInterface)=>{
   const resRef : any = useRef<HTMLSpanElement>(null);
 
 
-  const selectText = (ref : any) : void =>{
-    console.log(ref.current.focus());
-  }
+
 
   const variants : any = {
     open : {
